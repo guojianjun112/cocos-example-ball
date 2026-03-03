@@ -1,14 +1,15 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "",
+    "_name": "board",
     "_objFlags": 0,
     "_native": "",
     "data": {
       "__id__": 1
     },
     "optimizationPolicy": 0,
-    "asyncLoadAssets": false
+    "asyncLoadAssets": false,
+    "persistent": false
   },
   {
     "__type__": "cc.Node",
@@ -23,11 +24,11 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 7
+        "__id__": 8
       }
     ],
     "_prefab": {
-      "__id__": 8
+      "__id__": 10
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -72,7 +73,7 @@
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 6
+      "__id__": 7
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -117,7 +118,7 @@
       }
     ],
     "_prefab": {
-      "__id__": 5
+      "__id__": 6
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -148,7 +149,7 @@
     "_id": ""
   },
   {
-    "__type__": "cc.ModelComponent",
+    "__type__": "cc.MeshRenderer",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -167,7 +168,14 @@
     },
     "_shadowCastingMode": 0,
     "_receiveShadows": false,
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 5
+    }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "02xJK5QcdLeIQUbWLvzLBy"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -177,12 +185,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "Node.810",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "Node.810"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -192,12 +195,7 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "Node.809",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "Node.809"
   },
   {
     "__type__": "bb50aLcTl1FbpB7Hy0H/DT9",
@@ -222,7 +220,14 @@
     "springHelixPrefab": {
       "__uuid__": "89e7ed42-2941-4d5e-9f16-bb0e23353f98"
     },
-    "_id": ""
+    "_id": "",
+    "__prefab": {
+      "__id__": 9
+    }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "47WJlQonJByqZ7Jsz6R0JQ"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -232,11 +237,6 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "Node.808",
-    "sync": false,
-    "_synced": {
-      "default": false,
-      "serializable": false
-    }
+    "fileId": "Node.808"
   }
 ]

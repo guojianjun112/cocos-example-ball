@@ -1,15 +1,12 @@
 {
-  "ver": "2.0.14",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "b52041a0-41a0-4336-a32d-39d238283265",
-  "files": [
-    ".js",
-    ".trans"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
-    "importAsPlugin": false,
-    "moduleId": "project:///assets/script/game/camera-ctrl.js"
+    "moduleId": "project:///assets/script/game/camera-ctrl.js",
+    "simulateGlobals": []
   }
 }

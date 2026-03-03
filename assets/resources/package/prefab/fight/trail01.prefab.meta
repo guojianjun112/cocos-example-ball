@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.24",
+  "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
   "uuid": "f64b6551-9ede-40a5-b41d-f3d3884af22f",
@@ -7,5 +7,7 @@
     ".json"
   ],
   "subMetas": {},
-  "userData": {}
+  "userData": {
+    "syncNodeName": "trail01"
+  }
 }

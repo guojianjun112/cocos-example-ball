@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.16",
+  "ver": "1.0.26",
   "importer": "image",
   "imported": true,
   "uuid": "e2e8f80f-c5da-455a-96d6-ab1c0b1afc41",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.19",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "e2e8f80f-c5da-455a-96d6-ab1c0b1afc41@6c48a",
       "imported": true,
@@ -24,9 +24,10 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "e2e8f80f-c5da-455a-96d6-ab1c0b1afc41"
+        "imageUuidOrDatabaseUri": "e2e8f80f-c5da-455a-96d6-ab1c0b1afc41",
+        "visible": false
       },
       "displayName": "ballHigh01",
       "id": "6c48a",
@@ -35,6 +36,8 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "e2e8f80f-c5da-455a-96d6-ab1c0b1afc41@6c48a"
+    "redirect": "e2e8f80f-c5da-455a-96d6-ab1c0b1afc41@6c48a",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": false
   }
 }

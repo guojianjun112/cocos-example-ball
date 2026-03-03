@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.24",
+  "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
   "uuid": "c3eb5045-9af0-40f2-8e8b-2aea26c03a28",
@@ -7,5 +7,7 @@
     ".json"
   ],
   "subMetas": {},
-  "userData": {}
+  "userData": {
+    "syncNodeName": "spring01"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.24",
+  "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
   "uuid": "f1aeb172-157e-481b-9fb1-1e2fd5fbcd2f",
@@ -7,5 +7,7 @@
     ".json"
   ],
   "subMetas": {},
-  "userData": {}
+  "userData": {
+    "syncNodeName": "springTop"
+  }
 }

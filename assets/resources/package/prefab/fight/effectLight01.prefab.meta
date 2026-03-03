@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.24",
+  "ver": "1.1.50",
   "importer": "prefab",
   "imported": true,
   "uuid": "519290e7-9d06-4212-9d54-e28a7c2a6b05",
@@ -7,5 +7,7 @@
     ".json"
   ],
   "subMetas": {},
-  "userData": {}
+  "userData": {
+    "syncNodeName": "effectLight01"
+  }
 }

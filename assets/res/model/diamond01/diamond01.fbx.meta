@@ -1,12 +1,12 @@
 {
-  "ver": "1.3.16",
+  "ver": "2.3.12",
   "importer": "fbx",
   "imported": true,
   "uuid": "eb63a17d-58c5-4549-9483-59ee9e290d4e",
   "files": [],
   "subMetas": {
     "684db": {
-      "ver": "1.0.8",
+      "ver": "1.1.1",
       "importer": "gltf-mesh",
       "name": "Cylinder002.mesh",
       "id": "684db",
@@ -14,33 +14,37 @@
       "uuid": "eb63a17d-58c5-4549-9483-59ee9e290d4e@684db",
       "imported": true,
       "files": [
-        ".json",
-        ".bin"
-      ],
-      "subMetas": {},
-      "userData": {
-        "gltfIndex": 0
-      }
-    },
-    "df7df": {
-      "ver": "1.0.2",
-      "importer": "gltf-embeded-image",
-      "name": "贴图 #1.image",
-      "id": "df7df",
-      "uuid": "eb63a17d-58c5-4549-9483-59ee9e290d4e@df7df",
-      "displayName": "",
-      "imported": true,
-      "files": [
-        ".png",
+        ".bin",
         ".json"
       ],
       "subMetas": {},
       "userData": {
-        "gltfIndex": 0
+        "gltfIndex": 0,
+        "triangleCount": 22
       }
     },
+    "381dd": {
+      "importer": "gltf-embeded-image",
+      "uuid": "eb63a17d-58c5-4549-9483-59ee9e290d4e@381dd",
+      "displayName": "",
+      "id": "381dd",
+      "name": "diamond01.jpg.image",
+      "userData": {
+        "gltfIndex": 0,
+        "fixAlphaTransparencyArtifacts": true,
+        "hasAlpha": false,
+        "type": "texture"
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".jpg",
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "a96a6": {
-      "ver": "1.0.19",
+      "ver": "1.0.22",
       "importer": "texture",
       "name": "贴图 #1.texture",
       "id": "a96a6",
@@ -58,13 +62,13 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "eb63a17d-58c5-4549-9483-59ee9e290d4e@df7df"
+        "imageUuidOrDatabaseUri": "eb63a17d-58c5-4549-9483-59ee9e290d4e@381dd"
       }
     },
     "a66d0": {
-      "ver": "1.0.9",
+      "ver": "1.0.14",
       "importer": "gltf-scene",
       "name": "diamond01.prefab",
       "id": "a66d0",
@@ -102,9 +106,33 @@
     },
     "imageMetas": [
       {
-        "name": "贴图 #1",
-        "uri": "eb63a17d-58c5-4549-9483-59ee9e290d4e@df7df"
+        "name": "diamond01.jpg",
+        "uri": "eb63a17d-58c5-4549-9483-59ee9e290d4e@381dd"
       }
-    ]
+    ],
+    "legacyFbxImporter": true,
+    "fbx": {
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    },
+    "materialDumpDir": "db://assets/res/model/diamond01/Materials_diamond01",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
   }
 }

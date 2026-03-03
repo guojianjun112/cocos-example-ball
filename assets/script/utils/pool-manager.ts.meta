@@ -1,15 +1,12 @@
 {
-  "ver": "2.0.14",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "f92c3c4e-72c7-4c10-a87b-5bff3840fac3",
-  "files": [
-    ".js",
-    ".trans"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
-    "importAsPlugin": false,
-    "moduleId": "project:///assets/script/utils/pool-manager.js"
+    "moduleId": "project:///assets/script/utils/pool-manager.js",
+    "simulateGlobals": []
   }
 }

@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.16",
+  "ver": "1.0.26",
   "importer": "image",
   "imported": true,
   "uuid": "cb98f2e3-f9d1-43ec-8202-b877ae14b896",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.19",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "cb98f2e3-f9d1-43ec-8202-b877ae14b896@6c48a",
       "imported": true,
@@ -24,9 +24,10 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "cb98f2e3-f9d1-43ec-8202-b877ae14b896"
+        "imageUuidOrDatabaseUri": "cb98f2e3-f9d1-43ec-8202-b877ae14b896",
+        "visible": false
       },
       "displayName": "fightBoxNumber",
       "id": "6c48a",
@@ -35,6 +36,8 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "cb98f2e3-f9d1-43ec-8202-b877ae14b896@6c48a"
+    "redirect": "cb98f2e3-f9d1-43ec-8202-b877ae14b896@6c48a",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true
   }
 }

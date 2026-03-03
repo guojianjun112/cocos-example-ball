@@ -1,15 +1,39 @@
 {
-  "ver": "1.0.16",
+  "ver": "1.0.26",
   "importer": "image",
   "imported": true,
   "uuid": "09cb6ccd-f349-4ad0-ab08-1885589ff887",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "09cb6ccd-f349-4ad0-ab08-1885589ff887@6c48a",
+      "displayName": "singleColor",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "09cb6ccd-f349-4ad0-ab08-1885589ff887",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
     "f9941": {
-      "ver": "1.0.8",
+      "ver": "1.0.12",
       "importer": "sprite-frame",
       "uuid": "09cb6ccd-f349-4ad0-ab08-1885589ff887@f9941",
       "imported": true,
@@ -41,8 +65,67 @@
         "borderLeft": 0,
         "borderRight": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "09cb6ccd-f349-4ad0-ab08-1885589ff887",
-        "atlasUuid": ""
+        "imageUuidOrDatabaseUri": "09cb6ccd-f349-4ad0-ab08-1885589ff887@6c48a",
+        "atlasUuid": "",
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -1,
+            -1,
+            0,
+            1,
+            -1,
+            0,
+            -1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            0,
+            2,
+            2,
+            2,
+            0,
+            0,
+            2,
+            0
+          ],
+          "nuv": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "minPos": [
+            -1,
+            -1,
+            0
+          ],
+          "maxPos": [
+            1,
+            1,
+            0
+          ]
+        }
       },
       "displayName": "singleColor",
       "id": "f9941",
@@ -51,6 +134,8 @@
   },
   "userData": {
     "type": "sprite-frame",
-    "redirect": "09cb6ccd-f349-4ad0-ab08-1885589ff887@f9941"
+    "redirect": "09cb6ccd-f349-4ad0-ab08-1885589ff887@f9941",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": false
   }
 }

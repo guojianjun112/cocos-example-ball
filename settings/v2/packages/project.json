@@ -1,13 +1,25 @@
 {
-  "__version__": "1.0.1",
+  "__version__": "1.0.6",
   "script": {
     "useDefineForClassFields": false,
-    "allowDeclareFields": false
+    "allowDeclareFields": false,
+    "preserveSymlinks": true
   },
   "general": {
     "designResolution": {
       "width": 640,
       "height": 960
     }
-  }
+  },
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  },
+  "layer": [
+    {
+      "name": "canvas_19",
+      "value": 524288
+    }
+  ]
 }

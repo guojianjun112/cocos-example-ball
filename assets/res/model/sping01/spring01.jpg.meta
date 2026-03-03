@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.16",
+  "ver": "1.0.26",
   "importer": "image",
   "imported": true,
   "uuid": "70c7e379-3aac-4996-863c-c0246677b792",
@@ -9,7 +9,7 @@
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.19",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "70c7e379-3aac-4996-863c-c0246677b792@6c48a",
       "imported": true,
@@ -24,9 +24,10 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "70c7e379-3aac-4996-863c-c0246677b792"
+        "imageUuidOrDatabaseUri": "70c7e379-3aac-4996-863c-c0246677b792",
+        "visible": false
       },
       "displayName": "spring01",
       "id": "6c48a",
@@ -35,6 +36,8 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "70c7e379-3aac-4996-863c-c0246677b792@6c48a"
+    "redirect": "70c7e379-3aac-4996-863c-c0246677b792@6c48a",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": false
   }
 }

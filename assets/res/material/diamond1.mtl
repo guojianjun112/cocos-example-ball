@@ -30,7 +30,9 @@
     {
       "mainTexture": {
         "__uuid__": "7d207963-41de-445b-93d8-a00efac7e6c4@6c48a"
-      }
+      },
+      "roughness": 0.8,
+      "metallic": 0.6
     }
   ]
 }

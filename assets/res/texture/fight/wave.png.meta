@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.16",
+  "ver": "1.0.26",
   "importer": "image",
   "imported": true,
   "uuid": "c216e043-a577-4065-8099-c75d6a514df4",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.19",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "c216e043-a577-4065-8099-c75d6a514df4@6c48a",
       "imported": true,
@@ -24,9 +24,10 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "c216e043-a577-4065-8099-c75d6a514df4"
+        "imageUuidOrDatabaseUri": "c216e043-a577-4065-8099-c75d6a514df4",
+        "visible": false
       },
       "displayName": "wave",
       "id": "6c48a",
@@ -35,6 +36,8 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "c216e043-a577-4065-8099-c75d6a514df4@6c48a"
+    "redirect": "c216e043-a577-4065-8099-c75d6a514df4@6c48a",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true
   }
 }

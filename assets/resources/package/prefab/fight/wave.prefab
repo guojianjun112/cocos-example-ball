@@ -1,14 +1,15 @@
 [
   {
     "__type__": "cc.Prefab",
-    "_name": "",
+    "_name": "wave",
     "_objFlags": 0,
     "_native": "",
     "data": {
       "__id__": 1
     },
     "optimizationPolicy": 0,
-    "asyncLoadAssets": false
+    "asyncLoadAssets": false,
+    "persistent": false
   },
   {
     "__type__": "cc.Node",
@@ -24,7 +25,7 @@
       }
     ],
     "_prefab": {
-      "__id__": 3
+      "__id__": 4
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -55,8 +56,8 @@
     "_id": "0caR9pHeNL8KlWZvRimQpE"
   },
   {
-    "__type__": "cc.ModelComponent",
-    "_name": "Cylinder<ModelComponent>",
+    "__type__": "cc.MeshRenderer",
+    "_name": "Cylinder<MeshRenderer>",
     "_objFlags": 0,
     "node": {
       "__id__": 1
@@ -73,7 +74,14 @@
     },
     "_shadowCastingMode": 0,
     "_receiveShadows": false,
-    "_id": "61gxuXmHRH1rc8jM8oS5fL"
+    "_id": "61gxuXmHRH1rc8jM8oS5fL",
+    "__prefab": {
+      "__id__": 3
+    }
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "acEcyeRupHOJmSpMxVOZZo"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -83,8 +91,6 @@
     "asset": {
       "__uuid__": "b79f42a5-4f07-494c-a19c-3da4334841ee"
     },
-    "fileId": "4fSlAV0+xPLq7Os06CXbS0",
-    "sync": false,
-    "_synced": {}
+    "fileId": "4fSlAV0+xPLq7Os06CXbS0"
   }
 ]

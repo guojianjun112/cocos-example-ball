@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.16",
+  "ver": "1.0.26",
   "importer": "image",
   "imported": true,
   "uuid": "b70b71bd-411b-448f-a01c-359492c99f74",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.19",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "b70b71bd-411b-448f-a01c-359492c99f74@6c48a",
       "imported": true,
@@ -24,9 +24,10 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "premultiplyAlpha": false,
-        "anisotropy": 1,
+        "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "b70b71bd-411b-448f-a01c-359492c99f74"
+        "imageUuidOrDatabaseUri": "b70b71bd-411b-448f-a01c-359492c99f74",
+        "visible": false
       },
       "displayName": "fightScore",
       "id": "6c48a",
@@ -35,6 +36,8 @@
   },
   "userData": {
     "type": "texture",
-    "redirect": "b70b71bd-411b-448f-a01c-359492c99f74@6c48a"
+    "redirect": "b70b71bd-411b-448f-a01c-359492c99f74@6c48a",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true
   }
 }

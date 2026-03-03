@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.1",
+  "ver": "1.0.8",
   "importer": "auto-atlas",
   "imported": true,
   "uuid": "c411b68b-3ded-4f59-beb2-592bcdbead8c",
@@ -20,6 +20,18 @@
     "contourBleed": true,
     "paddingBleed": true,
     "filterUnused": false,
-    "platformSettings": {}
+    "platformSettings": {},
+    "removeTextureInBundle": false,
+    "removeImageInBundle": false,
+    "removeSpriteAtlasInBundle": false,
+    "compressSettings": {},
+    "textureSetting": {
+      "wrapModeS": "repeat",
+      "wrapModeT": "repeat",
+      "minfilter": "linear",
+      "magfilter": "linear",
+      "mipfilter": "none",
+      "anisotropy": 0
+    }
   }
 }
