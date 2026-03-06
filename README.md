@@ -280,3 +280,11 @@ playClip() {
 以上就是本教程的全部内容。接下来看一下运行结果吧。
 
 ![play](tutorial/play.gif)
+
+4. 编译环境
+cocos creator3.8.2
+android statudio 2022.2.1, https://edgedl.me.gvt1.com/edgedl/android/studio/install/2022.2.1.20/android-studio-2022.2.1.20-windows.exe
+Android API Level 33
+SDK build tools 30.0.3
+NDK  22.1.7171670
+AGP 8.0.2
