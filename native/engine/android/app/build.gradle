@@ -106,6 +106,10 @@ dependencies {
     implementation fileTree(dir: "${COCOS_ENGINE_PATH}/cocos/platform/android/java/libs", include: ['*.jar'])
     implementation project(':libservice')
     implementation project(':libcocos')
+    implementation fileTree(dir: '../aarGdt', include: ['*.aar'])
+    implementation fileTree(dir: '../aarSigmob', include: ['*.aar'])
+    implementation 'androidx.core:core:1.9.0'
+    implementation 'com.alibaba.fastjson2:fastjson2:2.0.60.android8'
     if (Boolean.parseBoolean(PROP_ENABLE_INPUTSDK)) {
         implementation 'com.google.android.libraries.play.games:inputmapping:1.1.0-beta'
         implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.10"

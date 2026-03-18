@@ -39,6 +39,14 @@ public class AppActivity extends CocosActivity {
         // DO OTHER INITIALIZATION BELOW
         SDKWrapper.shared().init(this);
 
+        // Cocos 交互接口
+        JsbBridgeCallback.getInstance().init(this);
+
+    }
+
+    // Cocos 交互接口
+    public static void sendToNative(String req, String arg) {
+        JsbBridgeCallback.getInstance().onScript(req, arg);
     }
 
     @Override
