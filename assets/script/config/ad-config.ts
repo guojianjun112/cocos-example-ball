@@ -2,8 +2,8 @@
   splashIntervalSec: 20,
   gdt: {
     provider: "gdt",
-    appId: "1213547213",
-    splash: "2236412172626424",
+    appId: "1215600738",
+    splash: "3218339261900886",
   },
   sigmob: {
     provider: "sigmob",
