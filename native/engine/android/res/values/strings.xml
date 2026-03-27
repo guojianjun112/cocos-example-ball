@@ -1,2 +1,5 @@
 <resources>
+    <string name="app_name" translatable="false">Cocos Ball</string>
+    <string name="app_privacy">https://www.wxzj.online/bqxxl_privacy.html</string>
+    <string name="app_agreement">https://www.wxzj.online/bqxxl_user.html</string>
 </resources>

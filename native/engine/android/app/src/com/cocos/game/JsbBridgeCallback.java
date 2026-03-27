@@ -1,6 +1,8 @@
 package com.cocos.game;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.text.TextUtils;
 
 import com.alibaba.fastjson2.JSON;
@@ -76,6 +78,25 @@ public class JsbBridgeCallback {
                         com.cocos.game.gdtAdManager.AdMain.getInstance().handlerAd(context, event, data);
                     } else if (TextUtils.equals(provider, "sigmob")) {
                         com.cocos.game.sigmobAdManager.AdMain.getInstance().handlerAd(context, event, data);
+                    }
+                } else if (TextUtils.equals(event, "openWebView")) {
+                    String url = data.getString("url");
+                    if (!TextUtils.isEmpty(url)) {
+                        boolean external = data.getBooleanValue("external");
+                        boolean blank = data.getBooleanValue("blank");
+                        if (external) {
+                            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                            context.startActivity(intent);
+                        } else if (blank) {
+                            Intent intent = new Intent(context, WebViewActivity.class);
+                            intent.putExtra("url", url);
+                            context.startActivity(intent);
+                        } else {
+                            WebViewDialog policyDialog = new WebViewDialog(context, url);
+                            policyDialog.setCanceledOnTouchOutside(true);
+                            policyDialog.setCancelable(true);
+                            policyDialog.show();
+                        }
                     }
                 }
             });
