@@ -288,3 +288,6 @@ Android API Level 33
 SDK build tools 30.0.3
 NDK  22.1.7171670
 AGP 8.0.2
+
+5. 编译命令
+cocos-example-ball\build\android\proj>  .\gradlew.bat assembleRelease --stacktrace --no-daemon
