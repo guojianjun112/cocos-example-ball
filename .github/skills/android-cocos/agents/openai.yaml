@@ -1,0 +1,4 @@
+interface:
+  display_name: "Android Cocos"
+  short_description: "Build and fix Android Cocos projects with a compile-retry workflow and run verification."
+  default_prompt: "Use $android-cocos to build this Cocos Android project, fix all release build errors, and verify APK runnability."
